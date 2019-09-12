@@ -1,0 +1,41 @@
+/* Blocco Container */
+.container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.container1 {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Box Prodotti */
+.box {
+  display: inline-block;
+  background: #eeeeee;
+}
+
+.box:hover .imgcuore{
+  display: block;
+  text-align: center;
+}
+
+.imgcuore {
+  display: none;
+  color: red;
+}
+
+/* CSS Testi + Sconto */
+.boxtesto {
+  text-align: right;
+}
+
+.sconto30 {
+  background: green;
+  text-align: right;
+}
+
+.sconto5 {
+  background: red;
+  text-align: right;
+}
